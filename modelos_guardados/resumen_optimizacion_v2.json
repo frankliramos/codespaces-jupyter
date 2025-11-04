@@ -1,0 +1,26 @@
+{
+    "version": "2.0 Ultra-Optimizada",
+    "fecha": "2025-11-04 03:20:52",
+    "configuracion": {
+        "n_iter": 10,
+        "cv": 2,
+        "total_fits": 60,
+        "reduccion_vs_anterior": "69%"
+    },
+    "tiempos": {
+        "optimizacion_total_segundos": 240.3,
+        "optimizacion_total_minutos": 4.0,
+        "random_forest_segundos": 188.23,
+        "xgboost_segundos": 12.39,
+        "catboost_segundos": 39.67
+    },
+    "mejor_modelo": {
+        "nombre": "Random Forest",
+        "metricas": {
+            "RMSE": 2381.6889577238653,
+            "MAE": 986.9731582959588,
+            "R2": 0.9889347694383435,
+            "MAPE": 6.804750538791421
+        }
+    }
+}
